@@ -12,8 +12,8 @@ Bienvenido al mejor grupo del mundo, únicamente por tener al gran Leonardo Bell
                                 Pasos para que podamos trabajar organizados:
 
    1) Para editar los notebook previamente pullear desde git para no tener quilombos de merge después
-   2) Copiar los archivos ipynb con los que se desee trabajar al directorio donde tengan guardados los csv
-   3) Jupyter lab en consola y editar los notebooks sin romper nada (?)
+   2) Pegar los csv (sin descomprimir) en la carpeta donde clonen el repo
+   3) Jupyter lab en consola y tirar magia
    4) Pushear
    
 
