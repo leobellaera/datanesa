@@ -9,7 +9,7 @@ Bienvenido al mejor grupo del mundo, únicamente por tener al gran Leonardo Bell
 
 
 
-                                Pasos para que podamos trabajar organizados:
+   ## Pasos para que podamos trabajar organizados:
 
    1) Para editar los notebook previamente pullear desde git para no tener quilombos de merge después
    2) Pegar los csv (sin descomprimir) en la carpeta donde clonen el repo
