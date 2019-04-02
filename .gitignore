@@ -1,6 +1,6 @@
 .ipynb_checkpoints/
-auctions.csv.gzip
-clicks.csv.gzip
-events.csv.gzip
-installs.csv.gzip
-target_competencia.csv.gzip
+auctions.csv
+clicks.csv
+events.csv
+installs.csv
+target_competencia.csv
