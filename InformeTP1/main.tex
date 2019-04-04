@@ -1,46 +1,66 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[toc,page]{appendix}
-\usepackage{graphicx}
+\documentclass[titlepage,a4paper]{article}
 
-\title{Informe Trabajo Práctico}
-\author{Grupo 9}
-\date{Primer cuatrimestre  de 2019}
+\usepackage{a4wide}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,bookmarksopen=true]{hyperref}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{float}
+
+\pagestyle{fancy} % Encabezado y pie de página
+\fancyhf{}
+\fancyhead[L]{TP1}
+\fancyhead[R]{FIUBA}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[C]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
 
 \begin{document}
-
-\maketitle
-
-\vspace{6mm}
-
-\begin{center}
+\begin{titlepage} % Carátula
+    \centering
+    \vfill
+    \Huge \textbf{Trabajo Práctico 1} \\
     
-\includegraphics[width=10cm, height=10cm]{UBA.png}
+    \vskip1cm
+    \Huge [75.06] Organización de Datos\\
+    \vskip2cm
+    \begin{table}[htbp]
+	\begin{center}
+	\begin{adjustbox}{max width=\textwidth}
+	\begin{tabular}{|l|l|l|}
+	\hline
+    \multicolumn{3}{|c|}{Grupo 9} \\ \hline
+	Nombre & Padrón & Mail \\ \hline 
+    Leonardo Bellaera & 100973 & leobellaera@gmail.com \\ \hline 
+    Nicolás Bugliot & pad  & mail \\ \hline
+    Filyan Karagoz &  pad & mail \\ \hline
+    Alejandro Kler &  pad & mail \\ \hline
+    \end{tabular}
+    \end{adjustbox}
+    \vskip 2cm
+    \includegraphics[width=8.7cm, height=8.7cm]{UBA.png}
+	\label{tabla:sencilla}
+	\end{center}
+	\end{table}
+	\vskip1cm
+	\Large \textit{Primer cuatrimestre de 2019}
 
-\end{center}
-
-PLANTILLA PARA EL INFORME FINAL
-
+    \vfill
+\end{titlepage}
+\tableofcontents % Índice general
 \newpage
 
-\section{Introducción}
-\vspace{3mm}
-En este informe nos centraremos en realizar un análisis exploratorio sobre un conjunto de datasets brindados por la empresa Jampp. Esta compañía se dedica a (...)
+\section{Introducción}\label{sec:intro}
 
 
-\maketitle
-
-\section{Análisis de la probabilidad de conversión}
-\vspace{3mm}
-\subsection{Título secundario}
-(...)
-\subsection{Otro título secundario}
-(...)
+\section{Desarrollo}\label{sec:intro}
 
 
-\section{Análisis de alguna cosa}
-\subsection{Título secundario}
-(...)
+\subsection{}
 
 
 \end{document}
